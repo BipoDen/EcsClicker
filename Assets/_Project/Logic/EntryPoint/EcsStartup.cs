@@ -31,6 +31,7 @@ namespace _Project.Logic.EntryPoint
                 .Add(new IncomeProgressSystem(_config))
                 .Add(new LevelUpSystem(_config))
                 .Add(new UpgradeSystem(_config))
+                .Add(new SaveSystem(_config))
                 .Init();
         }
 
