@@ -1,6 +1,9 @@
 using System;
+using _Project.Logic.Components;
 using _Project.Logic.Config;
 using _Project.Logic.Systems;
+using _Project.Logic.UI;
+using _Project.Logic.View;
 using Leopotam.EcsLite;
 using UnityEngine;
 
@@ -9,6 +12,9 @@ namespace _Project.Logic.EntryPoint
     public class EcsStartup : MonoBehaviour
     {
         [SerializeField] private BusinessesConfig _config;
+        [SerializeField] private NamesConfig _namesConfig;
+        [SerializeField] private GameplayUI _gameplayUI;
+        [SerializeField] private BusinessCardView _cardPrefab;
         
         private EcsSystems _systems;
         private EcsWorld _world;
@@ -20,6 +26,11 @@ namespace _Project.Logic.EntryPoint
             
             _systems
                 .Add(new BusinessInitSystem(_config))
+                .Add(new BusinessViewInitSystem(_gameplayUI, _cardPrefab))
+                .Add(new ViewSystem(_gameplayUI, _config, _namesConfig))
+                .Add(new IncomeProgressSystem(_config))
+                .Add(new LevelUpSystem(_config))
+                .Add(new UpgradeSystem(_config))
                 .Init();
         }
 

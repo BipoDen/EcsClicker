@@ -1,6 +1,6 @@
 namespace _Project.Logic.Components
 {
-    struct BusinessComponent
+    public struct BusinessComponent
     {
         public int Level;
         public float IncomeProgress;

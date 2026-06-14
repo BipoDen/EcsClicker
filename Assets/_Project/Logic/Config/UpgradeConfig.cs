@@ -6,6 +6,6 @@ namespace _Project.Logic.Config
     public class UpgradeConfig
     {
         public int Price;
-        public int BaseCost;
+        public float IncomeMultiplier;
     }
 }

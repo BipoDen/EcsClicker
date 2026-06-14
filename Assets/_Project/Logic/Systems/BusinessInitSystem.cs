@@ -38,10 +38,10 @@ namespace _Project.Logic.Systems
             {
                 var entity = _world.NewEntity();
                 
-                var configRef = configRefPool.Add(entity);
+                ref BusinessConfigRef configRef = ref configRefPool.Add(entity);
                 configRef.Index = i;
                 
-                var state = statePool.Add(entity);
+                ref BusinessComponent state = ref statePool.Add(entity);
                 state.Level = (i == 0) ? 1 : 0;
                 state.IncomeProgress = 0f;
                 state.Upgrade1Bought = false;

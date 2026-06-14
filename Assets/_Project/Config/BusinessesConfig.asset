@@ -12,4 +12,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4530a61f007a48f49903338ed63600ee, type: 3}
   m_Name: BusinessesConfig
   m_EditorClassIdentifier: Assembly-CSharp::_Project.Logic.Config.BusinessesConfig
-  Businesses: []
+  Businesses:
+  - IncomeDelay: 0
+    BaseCost: 0
+    BaseIncome: 0
+    Upgrade1:
+      Price: 0
+      BaseCost: 0
+    Upgrade2:
+      Price: 0
+      BaseCost: 0
+  - IncomeDelay: 0
+    BaseCost: 0
+    BaseIncome: 0
+    Upgrade1:
+      Price: 0
+      BaseCost: 0
+    Upgrade2:
+      Price: 0
+      BaseCost: 0
+  - IncomeDelay: 0
+    BaseCost: 0
+    BaseIncome: 0
+    Upgrade1:
+      Price: 0
+      BaseCost: 0
+    Upgrade2:
+      Price: 0
+      BaseCost: 0
+  - IncomeDelay: 0
+    BaseCost: 0
+    BaseIncome: 0
+    Upgrade1:
+      Price: 0
+      BaseCost: 0
+    Upgrade2:
+      Price: 0
+      BaseCost: 0
+  - IncomeDelay: 0
+    BaseCost: 0
+    BaseIncome: 0
+    Upgrade1:
+      Price: 0
+      BaseCost: 0
+    Upgrade2:
+      Price: 0
+      BaseCost: 0
