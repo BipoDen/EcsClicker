@@ -12,4 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2095479df7704e43bba0d6a823ab98f4, type: 3}
   m_Name: NamesConfig
   m_EditorClassIdentifier: Assembly-CSharp::_Project.Logic.Config.NamesConfig
-  Names: []
+  Names:
+  - BusinessName: Business 1
+    Upgrade1Name: Upgrade 1
+    Upgrade2Name: Upgrade 2
+  - BusinessName: Business 2
+    Upgrade1Name: Upgrade 1
+    Upgrade2Name: Upgrade 2
+  - BusinessName: Business 3
+    Upgrade1Name: Upgrade 1
+    Upgrade2Name: Upgrade 2
+  - BusinessName: Business 4
+    Upgrade1Name: Upgrade 1
+    Upgrade2Name: Upgrade 2
+  - BusinessName: Business 5
+    Upgrade1Name: Upgrade 1
+    Upgrade2Name: Upgrade 2

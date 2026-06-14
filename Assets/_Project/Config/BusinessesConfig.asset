@@ -13,48 +13,48 @@ MonoBehaviour:
   m_Name: BusinessesConfig
   m_EditorClassIdentifier: Assembly-CSharp::_Project.Logic.Config.BusinessesConfig
   Businesses:
-  - IncomeDelay: 0
-    BaseCost: 0
-    BaseIncome: 0
+  - IncomeDelay: 3
+    BaseCost: 3
+    BaseIncome: 3
     Upgrade1:
-      Price: 0
-      BaseCost: 0
+      Price: 50
+      IncomeMultiplier: 0.5
     Upgrade2:
-      Price: 0
-      BaseCost: 0
-  - IncomeDelay: 0
-    BaseCost: 0
-    BaseIncome: 0
+      Price: 400
+      IncomeMultiplier: 1
+  - IncomeDelay: 6
+    BaseCost: 40
+    BaseIncome: 40
     Upgrade1:
-      Price: 0
-      BaseCost: 0
+      Price: 1200
+      IncomeMultiplier: 1
     Upgrade2:
-      Price: 0
-      BaseCost: 0
-  - IncomeDelay: 0
-    BaseCost: 0
-    BaseIncome: 0
+      Price: 4000
+      IncomeMultiplier: 2
+  - IncomeDelay: 10
+    BaseCost: 200
+    BaseIncome: 200
     Upgrade1:
-      Price: 0
-      BaseCost: 0
+      Price: 6000
+      IncomeMultiplier: 1
     Upgrade2:
-      Price: 0
-      BaseCost: 0
-  - IncomeDelay: 0
-    BaseCost: 0
-    BaseIncome: 0
+      Price: 20000
+      IncomeMultiplier: 1.5
+  - IncomeDelay: 17
+    BaseCost: 1000
+    BaseIncome: 1000
     Upgrade1:
-      Price: 0
-      BaseCost: 0
+      Price: 15000
+      IncomeMultiplier: 1
     Upgrade2:
-      Price: 0
-      BaseCost: 0
-  - IncomeDelay: 0
-    BaseCost: 0
-    BaseIncome: 0
+      Price: 50000
+      IncomeMultiplier: 2
+  - IncomeDelay: 30
+    BaseCost: 5000
+    BaseIncome: 5000
     Upgrade1:
-      Price: 0
-      BaseCost: 0
+      Price: 100000
+      IncomeMultiplier: 2
     Upgrade2:
-      Price: 0
-      BaseCost: 0
+      Price: 500000
+      IncomeMultiplier: 4
